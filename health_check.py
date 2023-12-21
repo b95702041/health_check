@@ -19,7 +19,7 @@ def calculate_availability(url,method, up_count, req_count):
     console_out = (url + " " + method + " has " + str(number) + "% availability percentage")
     print (console_out)
 
-    with open("logging.txt", "w") as myfile:
+    with open("logging.txt", "a") as myfile:
         myfile.write(console_out + "\n")
     
     return total_up_count, total_req_count
