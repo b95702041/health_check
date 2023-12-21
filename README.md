@@ -68,7 +68,7 @@ python health_check.py
 #input.yaml
 ```
 
-## Tesing:
+## Testing:
 
 The test.py includes tests for send_request function with scenarios where the request is successful (200 OK) and when it fails (404 Not Found), as well as a test for calculate_availability.
 
